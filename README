@@ -1,0 +1,5 @@
+An incomplete implementation of the Akelarre block cipher. Was developed in a cryptography class with the goal of getting a working copy going that we would then develop an attack against (Akelarre has a known flaw in it, which is why it never made it main stream).
+
+Algorithm/ contains the actual code for the algorithm.
+Coconut/ contains our various attempts at attacking the algorithm
+Tests/ contain some basic JUnit tests for some parts of the algorithm

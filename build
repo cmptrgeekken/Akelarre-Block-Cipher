@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm Akelarre/*.class 2>/dev/null
+rm Coconut/*.class 2>/dev/null
+
+echo -n "Compiling package Akelarre... "
+javac Akelarre/*.java
+echo "complete!"
+
+echo -n "Compiling package Coconut...  "
+javac Coconut/*.java
+echo "complete!"
